@@ -1,0 +1,13 @@
+
+########################## Connect to mysql Database:
+mysql -uroot -pcloudera
+show databases;
+use retail_db;
+
+Compression algorithms: Find them from cloudera documentation
+CDH >> SEARCH
+
+if HIVE gives error: FAILED: Execution Error, return code 1 from org.apache.hadoop.hive.ql.exec.mr.MapredLocalTask
+SET hive.auto.convert.join=false;
+
+DESCRIBE FORMATTED {TABLE_NAME} will give more info for hive tables
